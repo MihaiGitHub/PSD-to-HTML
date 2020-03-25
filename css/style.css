@@ -85,6 +85,9 @@ p, ul li, ol li {
     font-family: 'HelveticaNeue-Thin';
     src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
+* {
+    box-shadow: border-box; /* Force all elements to behave like border boxes, no default padding/margins */
+}
 .container {
     max-width: 1100px;
     width: 100%; /* Fluid design */
@@ -92,4 +95,31 @@ p, ul li, ol li {
 }
 body {
     font-family: 'HelveticaNeue-Thin';
+}
+#hero {
+    background-image: url('../img/hero-bg.png');
+    background-size: cover; /* Make image as a cover image and not repeat */
+    background-position: center;
+    background-attachment: fixed; /* Background image fixed while scrolling effect */
+}
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav li {
+    display: inline-block; /* To get inline */
+    
+}
+.nav li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom:3px;
+    border-bottom: 4px solid white transparent;
+}
+.nav li a:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.1s, color 0.1s; /* Animation on hover */
 }
