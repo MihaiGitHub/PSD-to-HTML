@@ -96,8 +96,9 @@ p, ul li, ol li {
 body {
     font-family: 'HelveticaNeue-Thin';
 }
-#hero {
-    background-image: url('../img/hero-bg.png');
+#hero { /* Add reddish effect on top of background image with 0.6 transparency */
+    /* First rbga is for the top half of the image, the second rbga is for the bottom half */
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
     background-size: cover; /* Make image as a cover image and not repeat */
     background-position: center;
     background-attachment: fixed; /* Background image fixed while scrolling effect */
