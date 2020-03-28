@@ -295,3 +295,7 @@ footer p {
     list-style: none;
     margin-bottom: 25px;
 }
+.smallText {
+    font-size: 11px;
+    margin-top: 5px;
+}
