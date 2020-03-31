@@ -299,3 +299,32 @@ footer p {
     font-size: 11px;
     margin-top: 5px;
 }
+
+/* Copyright */
+.copyright .container {
+    padding: 40px;
+    text-align: center;
+}
+.copyright p {
+    margin-bottom: 0px;
+}
+.copyright {
+    background-color: #d7dedc;
+}
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.cr, .me {
+    margin-right: 40px;
+}
+.fb, .tw {
+    margin-right: 40px;
+}
+.cr:after, .me:after {
+    /* content after will be empty and will have a border instead */
+    content: "";
+    border: 1px solid #555555;
+    margin-left: 35px;
+}
