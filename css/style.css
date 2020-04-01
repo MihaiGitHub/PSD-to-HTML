@@ -328,3 +328,23 @@ footer p {
     border: 1px solid #555555;
     margin-left: 35px;
 }
+
+/* Animations */
+.iphone-on {
+    position: absolute;
+    right: 157px;
+    top: 115px;
+    width: 54%;
+}
+.iphone-btn {
+    position: absolute;
+    right: 215px;
+    top: 10px;
+}
+.js-wp-2 {
+    /* By default will be invisible for iphone so the animation can start */
+    opacity: 0;
+}
+.js-wp-2 {
+    opacity: 1;
+}
