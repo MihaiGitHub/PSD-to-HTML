@@ -9,7 +9,13 @@ $(document).ready(function () {
     $(".iphone-btn").delay(2300).animate({
         top: '+=2px'
     }, 300);
-    $(".iphone-btn").delay(1300).animate({
+    $(".iphone-btn").delay(500).animate({
         top: '+=-3px'
     }, 300);
+    
+    $('.js-wp-3').waypoint(function (direction) {
+        $('.js-wp-3').addClass('animated fadeIn');
+    }, {
+        offset: '70%'
+    });
 });
