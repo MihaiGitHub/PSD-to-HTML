@@ -313,8 +313,12 @@ footer p {
 }
 .inline {
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     vertical-align: middle;
+}
+.inline a {
+    text-decoration: none;
+    color: black;
 }
 .cr, .me {
     margin-right: 40px;
