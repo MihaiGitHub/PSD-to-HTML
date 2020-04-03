@@ -392,6 +392,52 @@ footer p {
     .fb, .tw. dr {
         margin-top: 20px;
     }
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        display: block;
+        z-index: 1000;
+    }
+    .burger-nav {
+        background: url(../img/hamburger.png) no-repeat 100% center;
+        display: block;
+        height: 33px;
+        width: 40px;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 10px;
+    }
+    .container nav ul {
+        /* Hide the navbar */
+        height: 0;
+        overflow: hidden;
+        background: #282828;
+        border-radius: 5px;
+    }
+    /* Add new class of open which gets triggered by js */
+    .container nav ul.open {
+        /* Restores height of navbar that was set to 0 before */
+        height: auto;
+        clear: both;
+    }
+    .container nav ul li {
+        float: none;
+        text-align: right;
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+    .container nav ul li a {
+        color: white;
+        padding: 10px;
+        display: block;
+        margin: 0;
+    }
+    .container nav ul li a: hover {
+        border: none;
+    }
 }
 @media only screen and (max-width: 768px){
     .col-4-footer {
