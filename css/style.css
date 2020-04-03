@@ -378,4 +378,34 @@ footer p {
         width: 100%;
         text-align: center;
     }
+    .p-features {
+        padding: 0px 30px;
+    }
+    .col-4-app {
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    .row h3 {
+        margin: 15px 0;
+    }
+    .fb, .tw. dr {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .col-4-footer {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+    .footer-logo {
+        margin-bottom: 35px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .cr:after, .me:after {
+        display: none;
+    }
 }
