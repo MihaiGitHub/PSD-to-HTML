@@ -193,9 +193,11 @@ h2 {
 .col-4-app {
     width: 33.33%;
     float: left;
-    padding: 0px 45px;
+    padding: 0px;
 }
 .col-4-app p {
+    width: 80%;
+    margin: 0 auto;
     font-family: 'HelveticaNeue-Thin';
     font-size: 18px;
     line-height: 24px;
@@ -274,7 +276,7 @@ footer p {
     float: left;
     margin-top: 77px;
     color: white;
-    padding: 30px;
+    padding: 0px;
 }
 .ul-posts, .ul-tweets {
     margin-top: 25px;
@@ -449,9 +451,25 @@ footer p {
     .footer-logo {
         margin-bottom: 35px;
     }
+    .block {
+        display: inline;
+    }
+    .ul-posts {
+        margin-bottom: 15px;
+    }
 }
 @media only screen and (max-width: 700px){
     .cr:after, .me:after {
         display: none;
+    }
+    .block {
+        display: inline;
+    }
+    .ul-posts {
+        margin-bottom: 15px;
+    }
+    .copyright .inline {
+        display: block;
+        padding-top: 5px;
     }
 }
